@@ -1,0 +1,15 @@
+
+path: C:/Users/Asus/PycharmProjects/ComputerVisionProject/Robocup_assignment/GuestScanner
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['No_Shoes', 'cup', 'person', 'shoes']
+
+roboflow:
+  workspace: desmond-turml
+  project: guest-scanner
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/desmond-turml/guest-scanner/dataset/1
